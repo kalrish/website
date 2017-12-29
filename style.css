@@ -1,0 +1,56 @@
+.title {
+	margin-top: 15px;
+	font-size: 55px;
+	font-family: "Georgia";
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+	margin-top: 20px;
+}
+.navbar a {
+	text-align: center;
+	padding: 14px 16px;
+	color: #f2f2f2;
+	text-decoration: none;
+	font-size: 17px;
+}
+.navbar a:hover {
+	color: black;
+	background-color: #ddd;
+}
+.navbar a.active {
+	color: white;
+	background-color: #4CAF50;
+}
+
+.navilinks {
+	width: 63%;
+}
+.navilinks a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.langselectordiv {
+	float: right;
+	width: 160px;
+}
+.langselector {
+	padding: 9px 16px;
+	vertical-align: middle;
+}
+
+.body {
+	margin-top: 35px;
+	margin-left: 30px;
+	font-family: "Georgia";
+}
+
+li {
+	margin: 0 0 3px 0;
+}
