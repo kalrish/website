@@ -7,4 +7,4 @@
 - [x] Link my GitHub user page
 - [ ] Link my LinkedIn profile
 - [x] Link my StackExchange profile
-- [ ] Set the lang attribute (probably on `<html>` tags)
+- [x] Set the lang attribute (probably on `<html>` tags)
