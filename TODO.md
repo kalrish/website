@@ -4,6 +4,6 @@
 - [ ] Describe different pens and writing tools I have used
 - [ ] Describe some of my projects
 - [ ] Upload my curriculum vitae
-- [ ] Link my GitHub user page
+- [x] Link my GitHub user page
 - [ ] Link my LinkedIn profile
 - [ ] Link my StackExchange profile
