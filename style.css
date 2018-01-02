@@ -25,10 +25,10 @@
 	background-color: #4CAF50;
 }
 
-.navilinks {
+nav {
 	width: 80%;
 }
-.navilinks a {
+nav a {
 	float: left;
 	color: #f2f2f2;
 	text-align: center;
