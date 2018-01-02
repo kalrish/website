@@ -1,5 +1,5 @@
 - [ ] Position the language selection dropdown menu in the vertical middle
-- [ ] Implement language system
+- [x] Implement language system
 - [ ] Upload some of my handwritten texts
 - [ ] Describe different pens and writing tools I have used
 - [ ] Describe some of my projects
