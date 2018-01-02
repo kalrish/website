@@ -6,4 +6,4 @@
 - [ ] Upload my curriculum vitae
 - [x] Link my GitHub user page
 - [ ] Link my LinkedIn profile
-- [ ] Link my StackExchange profile
+- [x] Link my StackExchange profile
