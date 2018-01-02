@@ -2,7 +2,13 @@
 <html>
 	<head>
 		<script type="text/javascript">
-			var langcode = 'eng';
+			var language = navigator.language;
+			
+			var langcode;
+			if ( language.indexOf('es') > -1 )
+				langcode = 'esp';
+			else
+				langcode = 'eng';
 			document.location.replace('/' + langcode)
 		</script>
 	</head>
