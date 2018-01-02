@@ -8,6 +8,8 @@
 			var langcode;
 			if ( language.indexOf('es') > -1 )
 				langcode = 'esp';
+			else if ( language.indexOf('de') > -1 )
+				langcode = 'deu';
 			else
 				langcode = 'eng';
 			document.location.replace('/' + langcode)
