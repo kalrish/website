@@ -1,5 +1,6 @@
 h1 {
 	margin-top: 15px;
+	-webkit-margin-after: 0;
 	font-size: 55px;
 	font-weight: normal;
 	font-family: "Georgia";
