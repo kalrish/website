@@ -48,6 +48,15 @@ nav.language {
 	text-align: right;
 	color: #f2f2f2;
 }
+nav.language ul {
+	list-style-type: none;
+}
+nav.language li {
+	display: inline;
+}
+nav.language li + li::before {
+	content: " | ";
+}
 nav.language a {
 	color: #4286f4;
 	text-decoration: none;
