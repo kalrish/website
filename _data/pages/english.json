@@ -1,0 +1,26 @@
+[
+	{
+		"title": "Home",
+		"permasub": "home"
+	},
+	{
+		"title": "Blog"
+	},
+	{
+		"title": "Handwriting"
+	},
+	{
+		"title": "Skills",
+		"permasub": "skills"
+	},
+	{
+		"title": "Projects"
+	},
+	{
+		"title": "CV"
+	},
+	{
+		"title": "Contact",
+		"permasub": "contact"
+	}
+]

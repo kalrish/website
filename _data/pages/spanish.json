@@ -1,0 +1,26 @@
+[
+	{
+		"title": "Inicio",
+		"permasub": "home"
+	},
+	{
+		"title": "Blog"
+	},
+	{
+		"title": "Letra y escritura"
+	},
+	{
+		"title": "Habilidades y conocimientos",
+		"permasub": "skills"
+	},
+	{
+		"title": "Proyectos"
+	},
+	{
+		"title": "CV"
+	},
+	{
+		"title": "Contacto",
+		"permasub": "contact"
+	}
+]
