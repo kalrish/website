@@ -5,6 +5,10 @@ h1 {
 	font-weight: normal;
 	font-family: "Georgia";
 }
+h1 a {
+	color: inherit;
+	text-decoration: none;
+}
 
 header {
 	background-color: #333;

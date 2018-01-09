@@ -6,7 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="/assets/style.css">
 	</head>
 	<body>
-		<h1>{{ page.versiontitle }}</h1>
+		<h1><a href="home">{{ page.versiontitle }}</a></h1>
 		<header>
 			<nav class="navigation">
 				{% for item in site.data.pages[page.language] %}<a {% if item.permasub == page.permasub %}class="active"{% endif %} href="/{{page.lang}}/{{ item.permasub }}">{{ item.title }}</a>{% endfor %}
