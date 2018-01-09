@@ -1,0 +1,4 @@
+exclude: [
+    "CNAME",
+    "TODO.md"
+]
