@@ -1,3 +1,29 @@
+defaults:
+    -
+        scope:
+            path: "deu"
+        values:
+            layout: "default"
+            lang: "deu"
+            language: "german"
+            versiontitle: "Davids persönliche Website"
+    -
+        scope:
+            path: "eng"
+        values:
+            layout: "default"
+            lang: "eng"
+            language: "english"
+            versiontitle: "David's personal website"
+    -
+        scope:
+            path: "esp"
+        values:
+            layout: "default"
+            lang: "esp"
+            language: "spanish"
+            versiontitle: "Sitio web de David"
+
 exclude: [
     "CNAME",
     "TODO.md"
