@@ -4,3 +4,10 @@ h2 {
 	padding-left: 12px;
 	background-color: #4CAF40;
 }
+
+h3 {
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 9px;
+	background-color: #0079FF;
+}
