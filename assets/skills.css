@@ -11,3 +11,8 @@ h3 {
 	padding-left: 9px;
 	background-color: #0079FF;
 }
+
+ul.toplist {
+	-webkit-padding-start: 0;
+	list-style-type: none;
+}
