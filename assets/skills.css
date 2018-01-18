@@ -26,7 +26,6 @@ ul.toplist > li + li {
 }
 
 ul.subsections {
-	padding-top: 4px;
 	-webkit-padding-start: 0;
 	list-style-type: none;
 }
