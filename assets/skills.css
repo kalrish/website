@@ -25,6 +25,10 @@ ul.toplist > li + li {
 	margin-top: 26px;
 }
 
+ul.toplist > li > ul#langlist {
+	margin-top: 15px;
+}
+
 ul.subsections {
 	-webkit-padding-start: 0;
 	list-style-type: none;
