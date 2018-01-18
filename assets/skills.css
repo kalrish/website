@@ -16,6 +16,10 @@ h3 {
 	background-color: #0079FF;
 }
 
+ul > li + li {
+	margin-top: 5px;
+}
+
 ul.toplist {
 	-webkit-padding-start: 0;
 	list-style-type: none;
