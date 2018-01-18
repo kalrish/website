@@ -5,6 +5,9 @@
 		<title>{{ page.versiontitle }} | {{ page.title }}</title>
 		<link rel="icon" type="image/png" href="/assets/favicon.png">
 		<link rel="stylesheet" type="text/css" href="/assets/style.css">
+		{% if page.css %}
+		<link rel="stylesheet" type="text/css" href="/assets/{{ page.css }}.css">
+		{% endif %}
 	</head>
 	<body>
 		<h1><a href="home">{{ page.versiontitle }}</a></h1>
