@@ -1,3 +1,11 @@
+/*
+main {
+	margin-top: 0;
+	margin-left: 0;
+	background-color: gray;
+}
+*/
+
 h2 {
 	-webkit-margin-before: 0;
 	-webkit-margin-after: 0;
@@ -22,9 +30,17 @@ ul > li + li {
 
 ul.toplist {
 	margin-top: 30px;
+	/*margin-left: 30px;*/
+	/*padding-top: 35px;*/
 	-webkit-padding-start: 0;
 	list-style-type: none;
 }
+
+/*
+ul.toplist > li {
+	background-color: white;
+}
+*/
 
 ul.toplist > li + li {
 	margin-top: 26px;
