@@ -24,3 +24,13 @@ ul.toplist {
 ul.toplist > li + li {
 	margin-top: 26px;
 }
+
+ul.subsections {
+	padding-top: 4px;
+	-webkit-padding-start: 0;
+	list-style-type: none;
+}
+
+ul.subsections {
+	border-left: 4px solid black;
+}
