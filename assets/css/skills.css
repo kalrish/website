@@ -16,7 +16,7 @@ ul > li + li {
 	margin-top: 5px;
 }
 
-ul.toplist {
+ul.sections {
 	margin-top: 30px;
 	/*margin-left: 30px;*/
 	/*padding-top: 35px;*/
@@ -25,12 +25,12 @@ ul.toplist {
 }
 
 /*
-ul.toplist > li {
+ul.sections > li {
 	background-color: white;
 }
 */
 
-ul.toplist > li > h2 {
+ul.sections > li > h2 {
 	-webkit-margin-after: 0;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -38,11 +38,11 @@ ul.toplist > li > h2 {
 	background-color: #4CAF40;
 }
 
-ul.toplist > li + li {
+ul.sections > li + li {
 	margin-top: 26px;
 }
 
-ul.toplist > li > ul#langlist {
+ul.sections > li > ul#langlist {
 	margin-top: 15px;
 }
 
