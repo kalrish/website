@@ -10,24 +10,6 @@ a {
 	text-decoration: none;
 }
 
-h2 {
-	-webkit-margin-before: 0;
-	-webkit-margin-after: 0;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 12px;
-	background-color: #4CAF40;
-}
-
-h3 {
-	-webkit-margin-before: 0;
-	-webkit-margin-after: 0;
-	padding-top: 7px;
-	padding-bottom: 7px;
-	padding-left: 9px;
-	background-color: #0079FF;
-}
-
 ul > li + li {
 	margin-top: 5px;
 }
@@ -45,6 +27,15 @@ ul.toplist > li {
 	background-color: white;
 }
 */
+
+ul.toplist > li > h2 {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 12px;
+	background-color: #4CAF40;
+}
 
 ul.toplist > li + li {
 	margin-top: 26px;
@@ -65,7 +56,13 @@ ul.subsections {
 }
 
 ul.subsections > li > h3 {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
 	margin-bottom: 14px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 9px;
+	background-color: #0079FF;
 }
 
 ul.subsections > li + li {
