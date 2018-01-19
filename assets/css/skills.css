@@ -29,7 +29,6 @@ ul.toplist > li {
 */
 
 ul.toplist > li > h2 {
-	-webkit-margin-before: 0;
 	-webkit-margin-after: 0;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -57,7 +56,6 @@ ul.subsections {
 
 ul.subsections > li > h3 {
 	-webkit-margin-before: 0;
-	-webkit-margin-after: 0;
 	margin-bottom: 14px;
 	padding-top: 7px;
 	padding-bottom: 7px;
