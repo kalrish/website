@@ -7,3 +7,4 @@
 - [ ] Link my LinkedIn profile
 - [x] Link my StackExchange profile
 - [x] Set the lang attribute (probably on `<html>` tags)
+- [ ] Make navigation links scrollable on smaller viewports, with enough space for the language navigation links
