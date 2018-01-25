@@ -1,5 +1,9 @@
 @import "reset";
 
+* {
+	box-sizing: border-box;
+}
+
 body {
 	margin: 8px;
 }
