@@ -3,19 +3,27 @@
 
 @import "base";
 
-main {
-	display: grid;
-	grid-template-columns: 16% auto;
-	grid-column-gap: 25px;
+@media (max-width: 600px) {
+	main > img {
+		display: none;
+	}
 }
 
-main > img {
-	grid-column: 1;
-	width: 100%;
-}
-
-main > div {
-	grid-column: 2;
+@media (min-width: 600px) {
+	main {
+		display: grid;
+		grid-template-columns: 16% auto;
+		grid-column-gap: 25px;
+	}
+	
+	main > img {
+		grid-column: 1;
+		width: 100%;
+	}
+	
+	main > div {
+		grid-column: 2;
+	}
 }
 
 main p {
