@@ -24,6 +24,10 @@ defaults:
             language: "spanish"
             versiontitle: "Sitio web de David"
 
+# Build settings
+sass:
+    style: compressed
+
 exclude: [
     "CNAME",
     "TODO.md"
