@@ -24,7 +24,7 @@ header#topnavibar {
 	box-sizing: border-box;
 }
 
-nav.navigation {
+nav#navigation {
 	position: relative;
 	left: 0;
 	width: 80%;
@@ -32,23 +32,23 @@ nav.navigation {
 	padding-bottom: 13.5px;
 	display: inline-block;
 }
-nav.navigation a {
+nav#navigation a {
 	padding: 15.5px 16px;
 	color: #f2f2f2;
 	text-align: center;
 	text-decoration: none;
 	font-size: 17px;
 }
-nav.navigation a:hover {
+nav#navigation a:hover {
 	color: black;
 	background-color: #ddd;
 }
-nav.navigation a.active {
+nav#navigation a.active {
 	color: white;
 	background-color: #4CAF50;
 }
 
-nav.language {
+nav#language {
 	position: relative;
 	right: 0;
 	width: 20%;
@@ -58,16 +58,16 @@ nav.language {
 	text-align: right;
 	color: #f2f2f2;
 }
-nav.language ul {
+nav#language ul {
 	list-style-type: none;
 }
-nav.language li {
+nav#language li {
 	display: inline;
 }
-nav.language li + li::before {
+nav#language li + li::before {
 	content: " | ";
 }
-nav.language a {
+nav#language a {
 	color: #4286f4;
 	text-decoration: none;
 }
