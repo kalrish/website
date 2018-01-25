@@ -12,7 +12,7 @@
 	</head>
 	<body>
 		<h1><a href="home">{{ page.versiontitle }}</a></h1>
-		<header class="topnavibar">
+		<header id="topnavibar">
 			<nav class="navigation">
 				{% for item in site.data.pages[page.language] %}<a {% if item.permasub == page.permasub %}class="active"{% endif %} href="/{{page.lang}}/{{ item.permasub }}">{{ item.title }}</a>{% endfor %}
 			</nav><nav class="language">
