@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html>
 	<head>
@@ -5,7 +7,12 @@
 		<link rel="icon" type="image/png" href="/assets/favicon.png">
 		<script type="text/javascript" src="/assets/js/redirect.js"></script>
 		<noscript>
-			<link rel="stylesheet" type="text/css" href="/assets/css/langportal.css">
+			<style type="text/css">
+				{%- capture css -%}
+					{%- include css/langportal.scss -%}
+				{%- endcapture -%}
+				{{- css | scssify -}}
+			</style>
 		</noscript>
 	</head>
 	<body>

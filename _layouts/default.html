@@ -4,11 +4,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>{{ page.versiontitle }} | {{ page.title }}</title>
 		<link rel="icon" type="image/png" href="/assets/favicon.png">
-		{% if page.css %}
-		<link rel="stylesheet" type="text/css" href="/assets/css/{{ page.css }}.css">
-		{% else %}
-		<link rel="stylesheet" type="text/css" href="/assets/css/default.css">
-		{% endif %}
+		<style type="text/css">
+			{%- capture css -%}
+				{%- include css/{{ page.css | default: "default" }}.scss -%}
+			{%- endcapture -%}
+			{{- css | scssify -}}
+		</style>
 	</head>
 	<body>
 		<h1><a href="home">{{ page.versiontitle }}</a></h1>
