@@ -25,6 +25,9 @@ defaults:
             versiontitle: "Sitio web de David"
 
 # Build settings
+compress_html:
+    clippings: all
+    comments: all
 sass:
     style: compressed
 
