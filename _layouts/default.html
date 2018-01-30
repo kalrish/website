@@ -6,6 +6,7 @@
 		<link rel="icon" type="image/png" href="/assets/favicon.png">
 		<style type="text/css">
 			{%- capture css -%}
+				@import "base";
 				{%- include css/{{ page.css | default: "default" }}.scss -%}
 			{%- endcapture -%}
 			{{- css | scssify -}}
