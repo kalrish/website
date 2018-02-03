@@ -8,8 +8,11 @@ ul.smartlist > li {
 	padding-bottom: 22px;
 	padding-left: 28px;
 	padding-right: 28px;
-	margin: 10px 0;
 	background: #ccc;
+}
+
+ul.smartlist > li + li {
+	margin-top: 10px;
 }
 
 ul.smartlist > li:hover {
