@@ -9,6 +9,7 @@ ul.smartlist > li {
 	padding-left: 28px;
 	padding-right: 28px;
 	background: #ccc;
+	break-inside: avoid;
 }
 
 ul.smartlist > li + li {
