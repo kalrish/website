@@ -4,7 +4,8 @@
 		"permasub": "home"
 	},
 	{
-		"title": "Blog"
+		"title": "Blog",
+		"url": "/blog/de/home"
 	},
 	{
 		"title": "Handschrift"
