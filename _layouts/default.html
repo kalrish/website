@@ -10,7 +10,7 @@ layout: compress
 		<style type="text/css">
 			{%- capture css -%}
 				@import "base";
-				{%- include css/{{ page.css | default: "default" }}.scss -%}
+				@import "{{ page.css | default: "default" }}";
 			{%- endcapture -%}
 			{{- css | scssify -}}
 		</style>

@@ -11,10 +11,7 @@ layout: compress
 		</script>
 		<noscript>
 			<style type="text/css">
-				{%- capture css -%}
-					{%- include css/langportal.scss -%}
-				{%- endcapture -%}
-				{{- css | scssify -}}
+				{{- '@import "langportal";' | scssify -}}
 			</style>
 		</noscript>
 	</head>
