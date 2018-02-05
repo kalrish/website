@@ -90,7 +90,8 @@ li {
 	margin-top: 70px;
 	padding: 12px 30px;
 	background-color: #ECECEC;
-	text-align: right;
+	display: flex;
+	justify-content: space-between;
 }
 
 #site-footer-icon-link-github {
