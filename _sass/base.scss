@@ -23,7 +23,7 @@ body {
 	text-decoration: none;
 }
 
-header#topnavibar {
+#topnavibar {
 	flex: 0 0 auto;
 	background-color: #333;
 	margin-top: 20px;
@@ -32,12 +32,12 @@ header#topnavibar {
 	display: flex;
 }
 
-nav#navigation {
+#navigation {
 	flex: 1 1 auto;
 	overflow-x: auto;
 	white-space: nowrap;
 }
-nav#navigation a {
+#navigation a {
 	display: inline-block;
 	padding: 14px 16px;
 	color: #f2f2f2;
@@ -45,32 +45,32 @@ nav#navigation a {
 	text-decoration: none;
 	font-size: 17px;
 }
-nav#navigation a:hover {
+#navigation a:hover {
 	color: black;
 	background-color: #ddd;
 }
-nav#navigation a.active {
+#navigation a.active {
 	color: white;
 	background-color: #4CAF50;
 }
 
-nav#language {
+#language {
 	padding-right: 14px;
 	text-align: center;
 	align-self: center;
 	color: #f2f2f2;
 	flex: 0 0 auto;
 }
-nav#language ul {
+#language ul {
 	list-style-type: none;
 }
-nav#language li {
+#language li {
 	display: inline;
 }
-nav#language li + li::before {
+#language li + li::before {
 	content: " | ";
 }
-nav#language a {
+#language a {
 	color: #4286f4;
 	text-decoration: none;
 }
