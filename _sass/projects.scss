@@ -7,6 +7,9 @@ ul.smartlist > li {
 	padding: 15px 28px 22px;
 	background: #ccc;
 	break-inside: avoid;
+	@supports not(break-inside: avoid) {
+		overflow: hidden;
+	}
 	
 	&:hover {
 		background: #ddd;
