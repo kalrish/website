@@ -15,10 +15,13 @@ ul > li + li {
 }
 
 ul.sections {
-	margin-top: 30px;
 	/*margin-left: 30px;*/
 	/*padding-top: 35px;*/
 	list-style-type: none;
+}
+
+ul.sections + ul.sections {
+	margin-top: 30px;
 }
 
 /*
