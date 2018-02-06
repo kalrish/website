@@ -96,6 +96,14 @@ li {
 	justify-content: space-between;
 }
 
+#site-footer-icon-blog {
+	transition: transform 0.75s ease;
+	
+	&:hover {
+		transform: rotate(90deg);
+	}
+}
+
 #site-footer-icon-link-github {
 	margin-left: 5px;
 }
