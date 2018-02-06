@@ -10,14 +10,14 @@ ul.smartlist > li {
 	padding-right: 28px;
 	background: #ccc;
 	break-inside: avoid;
+	
+	&:hover {
+		background: #ddd;
+	}
 }
 
 ul.smartlist > li + li {
 	margin-top: 10px;
-}
-
-ul.smartlist > li:hover {
-	background: #ddd;
 }
 
 ul.smartlist > li > h2 {
