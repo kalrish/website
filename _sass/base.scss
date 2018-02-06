@@ -11,14 +11,14 @@ body {
 	margin: 0 8px;
 }
 
-h1 {
+#site-title {
 	flex: 0 0 auto;
 	margin-top: 15px;
 	font-size: 7vmin;
 	font-weight: normal;
 	font-family: "Georgia";
 }
-h1 a {
+#site-title a {
 	color: inherit;
 	text-decoration: none;
 }

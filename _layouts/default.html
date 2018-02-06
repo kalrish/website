@@ -18,7 +18,7 @@ layout: compress
 		</style>
 	</head>
 	<body>
-		<h1><a href="home">{{ page.versiontitle }}</a></h1>
+		<h1 id="site-title"><a href="home">{{ page.versiontitle }}</a></h1>
 		<header id="topnavibar">
 			<nav id="navigation">
 				{% for item in site.data.pages[page.language] %}<a {% unless item.url %}{% if item.permasub == page.permasub %}class="active"{% endif %} href="/{{page.lang}}/{{ item.permasub }}"{% else %}href="{{ item.url }}"{% endunless %}>{{ item.title }}</a>{% endfor %}
