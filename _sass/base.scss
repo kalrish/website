@@ -104,6 +104,36 @@ li {
 	}
 }
 
+@function pow($number, $exponent) {
+	$value: 1;
+	
+	@if $exponent > 0 {
+		@for $i from 1 through $exponent {
+			$value: $value * $number;
+		}
+	}
+	
+	@return $value;
+}
+
+@keyframes wiggle {
+	@for $i from 0 through 100 {
+		#{$i * 1%} {
+			transform: rotate(#{pow(-1, floor($i / 50)) * (abs(abs($i % 50 - 25) - 25) / 25 * 25deg)});
+		}
+	}
+}
+
+#site-footer-icon-flaschenpost {
+	&:hover {
+		animation: wiggle .5s infinite;
+	}
+}
+
+#site-footer-icon-link-flaschenpost {
+	margin-left: 3px;
+}
+
 #site-footer-icon-link-github {
 	margin-left: 5px;
 }
