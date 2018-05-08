@@ -5,7 +5,7 @@ layout: compress
 <html lang="{{ page.lang }}">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>{{ page.versiontitle }} | {{ page.title }}</title>
+		<title>David J. S.P. | {{ page.title }}</title>
 		<link rel="icon" type="image/png" href="/assets/favicon.png">
 		<style>
 			{%- capture css -%}
@@ -18,7 +18,7 @@ layout: compress
 		</style>
 	</head>
 	<body>
-		<h1 id="site-title"><a href="home">{{ page.versiontitle }}</a></h1>
+		<h1 id="site-title"><a href="home">David J. S.P.</a></h1>
 		<header id="topnavibar">
 			<nav id="navigation">
 				{% for item in site.data.pages[page.language] %}<a {% unless item.url %}{% if item.permasub == page.permasub %}class="active"{% endif %} href="/{{page.lang}}/{{ item.permasub }}"{% else %}href="{{ item.url }}"{% endunless %}>{{ item.title }}</a>{% endfor %}

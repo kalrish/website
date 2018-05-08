@@ -6,7 +6,6 @@ defaults:
             layout: "default"
             lang: "de"
             language: "german"
-            versiontitle: "Davids persönliche Website"
     -
         scope:
             path: "en"
@@ -14,7 +13,6 @@ defaults:
             layout: "default"
             lang: "en"
             language: "english"
-            versiontitle: "David's personal website"
     -
         scope:
             path: "es"
@@ -22,7 +20,6 @@ defaults:
             layout: "default"
             lang: "es"
             language: "spanish"
-            versiontitle: "Sitio web de David"
 
 # Build settings
 compress_html:
