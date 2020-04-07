@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&subset=latin-ext');
+@import url('https://kalrish.github.io/webfonts/cinzel/regular.css');
+@import url('https://kalrish.github.io/webfonts/tangerine/regular.css');
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: grid;
+	grid-row-gap: 5vh;
+	grid-template-rows: 20vh auto;
+	height: 100vh;
+	width: 100vw;
+}
+
+@media (min-height: 800px) {
+	body {
+		padding-bottom: 40px;
+		padding-top: 35px;
+	}
+}
+
+@media (min-width: 600px) {
+	body {
+		padding-left: 40px;
+		padding-right: 35px;
+	}
+}
+
+header {
+	align-items: center;
+	display: grid;
+	grid-template-rows: 15vh auto;
+	justify-items: center;
+}
+
+#photo {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+#name {
+	font-family: Georgia;
+	font-size: 30px;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 50vw 50vw;
+}
+
+#section-info {
+	display: table;
+	margin-left: auto;
+}
+
+#section-info a {
+	text-decoration: none;
+}
+
+#section-info a:link {
+	color: black;
+}
+
+#section-info a:visited {
+	color: black;
+}
+
+#section-info a:active {
+	color: black;
+}
+
+.info-item {
+	display: table-row;
+}
+
+.info-item:hover {
+	background-color: #51c7db;
+}
+
+.info-left {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.info-icon {
+	max-height: 3vh;
+	max-width: 3vw;
+}
+
+.info-right {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#phonelist {
+	display: grid;
+	grid-row-gap: 15px;
+	list-style-type: none;
+}
+
+.phonenumber {
+	align-items: center;
+	display: grid;
+	grid-column-gap: 12px;
+	grid-template-columns: 1.5vw 7vw;
+}
+
+.phoneicon {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+#info-item-blog:hover #info-icon-blog {
+	transform: rotate(90deg);
+}
+
+#info-icon-blog {
+	transition: transform 0.75s ease;
+}
+
+#info-right-blog {
+	font-family: Cinzel;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+#info-item-flaschenpost:hover #info-icon-flaschenpost {
+	animation: wiggle .3s 2;
+}
+
+#info-right-flaschenpost {
+	font-family: Tangerine;
+	font-size: 35px;
+}
+
+#section-cv {
+}
+
+#cv-list {
+	align-items: stretch;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: space-evenly;
+	list-style-type: none;
+}
+
+.cv-list-item + .cv-list-item {
+}
+
+.cv-list-item {
+	display: flex;
+	flex-direction: column;
+}
+
+.cv-time {
+	font-family: 'PT Serif', serif;
+	font-size: 20px;
+	font-weight: bold;
+}
