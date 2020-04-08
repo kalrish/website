@@ -63,24 +63,28 @@ header {
 }
 
 main {
-	display: table;
-	margin-left: auto;
-	margin-right: auto;
+	display: grid;
+	grid-template-columns: 50vw 50vw;
 }
 
-main a {
+#section-info {
+	display: table;
+	margin-left: auto;
+}
+
+#section-info a {
 	text-decoration: none;
 }
 
-main a:link {
+#section-info a:link {
 	color: black;
 }
 
-main a:visited {
+#section-info a:visited {
 	color: black;
 }
 
-main a:active {
+#section-info a:active {
 	color: black;
 }
 
