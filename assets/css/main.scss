@@ -186,31 +186,6 @@ main {
 	text-decoration: none;
 }
 
-
-@function pow($number, $exponent) {
-	$value: 1;
-
-	@if $exponent > 0 {
-		@for $i from 1 through $exponent {
-			$value: $value * $number;
-		}
-	}
-
-	@return $value;
-}
-
-@keyframes wiggle {
-	@for $i from 0 through 100 {
-		#{$i * 1%} {
-			transform: rotate(#{pow(-1, floor($i / 50)) * (abs(abs($i % 50 - 25) - 25) / 25 * 22deg)});
-		}
-	}
-}
-
-#info-item-flaschenpost:hover #info-icon-flaschenpost {
-	animation: wiggle .3s 2;
-}
-
 #info-right-flaschenpost {
 	font-family: Tangerine;
 	font-size: 35px;
