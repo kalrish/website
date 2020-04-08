@@ -137,15 +137,12 @@ main {
 }
 
 #phonelist {
-	display: grid;
+	display: table;
 	list-style-type: none;
 }
 
-.phonenumber {
-	align-items: center;
-	display: grid;
-	grid-column-gap: 12px;
-	grid-template-columns: 1.5vw 7vw;
+.phoneentry {
+	display: table-row;
 	padding-top: 12px;
 	padding-bottom: 12px;
 
@@ -155,8 +152,12 @@ main {
 }
 
 .phoneicon {
-	max-height: 100%;
-	max-width: 100%;
+	display: table-cell;
+	max-width: 1.5vw;
+}
+
+.phonenumber {
+	display: table-cell;
 }
 
 #info-item-blog:hover #info-icon-blog {
