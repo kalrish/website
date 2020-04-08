@@ -67,6 +67,13 @@ main {
 	grid-template-columns: 50vw 50vw;
 }
 
+#nationality-flag {
+	grid-column-end: 2;
+	grid-column-start: 1;
+	max-height: 3vh;
+	max-width: 3vw;
+}
+
 #section-info {
 	display: table;
 	margin-left: auto;
