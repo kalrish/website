@@ -168,6 +168,10 @@ main {
 	vertical-align: middle;
 }
 
+.email-address , .web-address , .username {
+	font-family: monospace;
+}
+
 #info-item-blog:hover #info-icon-blog {
 	transform: rotate(90deg);
 }
