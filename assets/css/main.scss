@@ -143,8 +143,6 @@ main {
 
 .phoneentry {
 	display: table-row;
-	padding-top: 12px;
-	padding-bottom: 12px;
 
 	&:hover {
 		background-color: #27a8be;
@@ -154,10 +152,14 @@ main {
 .phoneicon {
 	display: table-cell;
 	max-width: 1.5vw;
+	vertical-align: middle;
 }
 
 .phonenumber {
 	display: table-cell;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	vertical-align: middle;
 }
 
 #info-item-blog:hover #info-icon-blog {
