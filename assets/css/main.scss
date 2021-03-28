@@ -128,40 +128,6 @@ main {
 	text-align: left;
 }
 
-#phonelist {
-	display: table;
-	list-style-type: none;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.phoneentry {
-	display: table-row;
-
-	&:hover {
-		background-color: #27a8be;
-	}
-}
-
-.phoneicon {
-	display: table-cell;
-	margin-left: 12px;
-	max-width: 1.5vw;
-	padding-bottom: 12px;
-	padding-top: 12px;
-	vertical-align: middle;
-}
-
-.phonenumber {
-	display: table-cell;
-	padding-bottom: 12px;
-	padding-left: 14px;
-	padding-right: 12px;
-	padding-top: 12px;
-	text-align: left;
-	vertical-align: middle;
-}
-
 .email-address , .web-address , .username {
 	font-family: monospace;
 }
