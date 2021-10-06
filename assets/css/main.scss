@@ -10,15 +10,16 @@
 
 @import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&subset=latin-ext');
 @import url('https://fonts.resources.www.djsp.eu/cinzel/regular.css');
-@import url('https://fonts.resources.www.djsp.eu/tangerine/regular.css');
 
 
 body {
 	display: grid;
-	grid-row-gap: 5vh;
-	grid-template-rows: 24vh auto;
-	height: 100vh;
+	grid-row-gap: 4vh;
 	width: 100vw;
+	@media (prefers-color-scheme: dark) {
+		background-color: black;
+		color: white;
+	}
 }
 
 @media (min-height: 800px) {
@@ -44,110 +45,179 @@ body {
 }
 
 header {
-	align-items: center;
+	//align-items: center;
 	display: grid;
 	grid-row-gap: 3vh;
-	grid-template-rows: 15vh auto;
+	//grid-template-rows: 15vh auto;
 	justify-items: center;
 }
 
-#photo {
-	border-radius: 100%;
-	max-height: 15vh;
+main {
+	//align-items: center;
+	display: grid;
+	grid-row-gap: 2vh;
+	grid-template-columns: auto;
+	//justify-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
 
+section {
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 1px;
+	//align-items: center;
+	display: grid;
+	grid-row-gap: 10px;
+	grid-template-columns: auto;
+	justify-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	width: 15vw;
+	@media (prefers-color-scheme: dark) {
+		border-color: white;
+	}
 	&:hover {
-		box-shadow:
-			0
-			0
-			5px
-			5px
-			#51c7db;
+		background-color: #51c7db;
 	}
 }
 
-#name {
-	font-family: Georgia;
-	font-size: 30px;
+.email-part {
+	width: 30%;
 }
 
-main {
-	margin-left: auto;
-	margin-right: auto;
+.icon {
+	fill: black;
+	@media (prefers-color-scheme: dark) {
+		fill: white;
+	}
 }
 
-#section-info {
-	display: table;
-	height: 100%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#section-info a {
-	text-decoration: none;
-}
-
-#section-info a:link {
-	color: black;
-}
-
-#section-info a:visited {
-	color: black;
-}
-
-#section-info a:active {
-	color: black;
-}
-
-.info-item {
-	display: table-row;
-}
-
-.info-item:hover {
-	background-color: #51c7db;
-}
-
-.info-left {
-	display: table-cell;
-	vertical-align: middle;
-}
-
-.info-icon {
+.icon-section {
+	/*
 	max-height: 3vh;
 	max-width: 3vw;
+	*/
+	max-height: 3vh;
+	width: calc(min(27px,3vw));
 }
 
-.info-right {
-	display: table-cell;
-	padding-left: 15px;
-	text-align: center;
-	vertical-align: middle;
-}
-
-#home-address {
+.icon-web {
 	display: inline-block;
-	font-style: normal;
-	text-align: left;
+	/*
+	max-height: 4vh;
+	max-width: 4vw;
+	*/
+	max-height: 2vw;
+	width: 2vw;
 }
 
-.email-address , .web-address , .username {
+#address {
+	border-style: solid;
+	border-width: 5px;
 	font-family: monospace;
+	font-size: 14px;
+	font-style: normal;
+	padding: 4px;
+	text-decoration: none;
+	@media (prefers-color-scheme: dark) {
+		border-color: white;
+	}
 }
 
-#info-item-blog:hover #info-icon-blog {
-	transform: rotate(90deg);
+#blog {
+	//align-items: center;
+	//justify-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	&:hover {
+		& #blog-icon {
+			transform: rotate(90deg);
+		}
+	}
 }
 
-#info-icon-blog {
+#blog-icon {
 	transition: transform 0.75s ease;
 }
 
-#info-right-blog {
+#blog-title {
+	color: black;
 	font-family: Cinzel;
 	font-size: 25px;
 	text-decoration: none;
+	@media (prefers-color-scheme: dark) {
+		color: white;
+	}
 }
 
-#info-right-flaschenpost {
-	font-family: Tangerine;
-	font-size: 35px;
+#email {
+	display: inline-block;
+	font-family: monospace;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+	& > span {
+		display: inline-block;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+
+#email-atsymbol {
+	color: black;
+	font-size: 18px;
+	text-align: center;
+	@media (prefers-color-scheme: dark) {
+		color: white;
+	}
+}
+
+#email-domain {
+	color: red;
+	text-align: left;
+}
+
+#email-localpart {
+	color: blue;
+	text-align: right;
+}
+
+#icon-web-linkedin {
+	fill: #0a66c2;
+}
+
+#name {
+	display: grid;
+	grid-column-gap: 20px;
+	grid-template-columns: repeat( 2 , calc( min( 15vw , 260px ) ) );
+	text-align: center;
+	& > tbody {
+		display: contents;
+	}
+	& tr {
+		display: grid;
+	}
+	& th {
+		font-family: monospace;
+		font-size: 12px;
+		font-weight: normal;
+	}
+	& td {
+		font-family: 'PT Serif';
+		font-size: 30px;
+	}
+}
+
+#name-forename {
+	justify-content: right;
+}
+
+#name-surname {
+	justify-content: left;
 }
