@@ -37,19 +37,15 @@ body {
 }
 
 header {
-	//align-items: center;
 	display: grid;
 	grid-row-gap: 3vh;
-	//grid-template-rows: 15vh auto;
 	justify-items: center;
 }
 
 main {
-	//align-items: center;
 	display: grid;
 	grid-row-gap: 2vh;
 	grid-template-columns: auto;
-	//justify-items: center;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -58,7 +54,6 @@ section {
 	border-radius: 10px;
 	border-style: solid;
 	border-width: 1px;
-	//align-items: center;
 	display: grid;
 	grid-row-gap: 10px;
 	grid-template-columns: auto;
@@ -88,20 +83,12 @@ section {
 }
 
 .icon-section {
-	/*
-	max-height: 3vh;
-	max-width: 3vw;
-	*/
 	max-height: 3vh;
 	width: calc( min( 27px , 3vw ) );
 }
 
 .icon-web {
 	display: inline-block;
-	/*
-	max-height: 4vh;
-	max-width: 4vw;
-	*/
 	max-height: 2vw;
 	width: 2vw;
 }
@@ -120,8 +107,6 @@ section {
 }
 
 #blog {
-	//align-items: center;
-	//justify-items: center;
 	margin-left: auto;
 	margin-right: auto;
 	&:hover {
