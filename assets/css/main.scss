@@ -82,14 +82,14 @@ section {
 }
 
 .icon-section {
-	max-height: 3vh;
-	width: calc( min( 27px , 3vw ) );
+	max-height: 35vw;
+	width: 27px;
 }
 
 .icon-web {
 	display: inline-block;
-	max-height: 2vw;
-	width: 2vw;
+	max-height: 35vw;
+	width: 32px;
 }
 
 #address {
@@ -165,8 +165,7 @@ section {
 }
 
 #icon-gender {
-	max-height: 3vw;
-	width: calc( min( 22px , 3vw ) );
+	width: 22px;
 }
 
 #icon-web-linkedin {
@@ -176,7 +175,7 @@ section {
 #name {
 	display: grid;
 	grid-column-gap: 20px;
-	grid-template-columns: repeat( 2 , 260px );
+	grid-template-columns: repeat( 2 , 30vw );
 	text-align: center;
 	& > tbody {
 		display: contents;
