@@ -164,6 +164,11 @@ section {
 	text-align: right;
 }
 
+#icon-gender {
+	max-height: 3vw;
+	width: calc( min( 22px , 3vw ) );
+}
+
 #icon-web-linkedin {
 	fill: #0a66c2;
 }
