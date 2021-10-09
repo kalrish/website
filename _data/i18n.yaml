@@ -1,0 +1,20 @@
+---
+address:
+   country:
+      DACH: null
+      hispanic: ALEMANIA
+      world: GERMANY
+links:
+   blog_path:
+      DACH: /de/home
+      hispanic: /es/home
+      world: /
+words:
+   forenames:
+      DACH: Vornamen
+      hispanic: Nombres
+      world: Forenames
+   surnames:
+      DACH: Nachnamen
+      hispanic: Apellidos
+      world: Surnames
