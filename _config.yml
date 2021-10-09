@@ -3,5 +3,7 @@
 exclude:
    - CNAME
 
+region: world
+
 sass:
    style: compressed
