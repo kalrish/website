@@ -2,12 +2,14 @@
 ---
 <!DOCTYPE html>
 <html
+	lang="{{ site.data.i18n.lang[site.region] }}"
 	>
 
 	<head
 		>
 
 		<title
+			lang="es"
 			>
 			David Joaquín Shourabi Porcel
 		</title>
@@ -62,6 +64,7 @@
 							{{ site.data.i18n.words.forenames[site.region] }}
 						</th>
 						<td
+							lang="es"
 							>
 							David Joaquín
 						</td>
@@ -75,6 +78,7 @@
 							{{ site.data.i18n.words.surnames[site.region] }}
 						</th>
 						<td
+							lang="es"
 							>
 							Shourabi Porcel
 						</td>
@@ -142,7 +146,11 @@
 					20106 Hamburg
 					{%- if site.data.i18n.address.country[site.region] %}
 					<br>
-					{{ site.data.i18n.address.country[site.region] -}}
+					<span
+						lang="{{ site.data.i18n.lang[site.region] }}"
+						>
+						{{ site.data.i18n.address.country[site.region] }}
+					</span>
 					{%- endif %}
 				</address>
 			</section>

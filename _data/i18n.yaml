@@ -4,6 +4,10 @@ address:
       DACH: null
       hispanic: ALEMANIA
       world: GERMANY
+lang:
+   DACH: de
+   hispanic: es
+   world: en
 links:
    blog_path:
       DACH: /de/home
