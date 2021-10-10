@@ -1,8 +1,6 @@
----
----
 <!DOCTYPE html>
 <html
-	lang="{{ site.data.i18n.lang[site.region] }}"
+	lang="{{ site.data.i18n.lang[page.region] }}"
 	>
 
 	<head
@@ -61,7 +59,7 @@
 						<th
 							scope="row"
 							>
-							{{ site.data.i18n.words.forenames[site.region] }}
+							{{ site.data.i18n.words.forenames[page.region] }}
 						</th>
 						<td
 							lang="es"
@@ -75,7 +73,7 @@
 						<th
 							scope="row"
 							>
-							{{ site.data.i18n.words.surnames[site.region] }}
+							{{ site.data.i18n.words.surnames[page.region] }}
 						</th>
 						<td
 							lang="es"
@@ -147,12 +145,12 @@
 					Postfach 13 06 24
 					<br>
 					20106 Hamburg
-					{%- if site.data.i18n.address.country[site.region] %}
+					{%- if site.data.i18n.address.country[page.region] %}
 					<br>
 					<span
-						lang="{{ site.data.i18n.lang[site.region] }}"
+						lang="{{ site.data.i18n.lang[page.region] }}"
 						>
-						{{ site.data.i18n.address.country[site.region] }}
+						{{ site.data.i18n.address.country[page.region] }}
 					</span>
 					{%- endif %}
 				</address>
@@ -179,7 +177,7 @@
 					</svg>
 				</h2>
 				<a
-					href="https://blog.www.djsp.eu{{ site.data.i18n.links.blog_path[site.region] }}"
+					href="https://blog.www.djsp.eu{{ site.data.i18n.links.blog_path[page.region] }}"
 					id="blog-title"
 					>
 					Sanctum
