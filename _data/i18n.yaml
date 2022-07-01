@@ -2,8 +2,8 @@
 address:
    country:
       DACH: null
-      hispanic: ALEMANIA
-      world: GERMANY
+      hispanic: Alemania
+      world: Germany
 lang:
    DACH: de
    hispanic: es
