@@ -73,8 +73,10 @@ section {
 
 .icon {
 	fill: black;
+	stroke: black;
 	@media (prefers-color-scheme: dark) {
 		fill: white;
+		stroke: white;
 	}
 }
 
@@ -89,7 +91,7 @@ section {
 	width: 38px;
 }
 
-#address {
+address {
 	border-style: solid;
 	border-width: 5px;
 	font-family: monospace;
@@ -159,6 +161,22 @@ section {
 #email-localpart {
 	color: blue;
 	text-align: right;
+}
+
+/*
+#icon-parcels-sides {
+	fill: black;
+	@media (prefers-color-scheme: dark) {
+		fill: white;
+	}
+}
+*/
+
+#icon-parcels-tape {
+	fill: white;
+	@media (prefers-color-scheme: dark) {
+		fill: black;
+	}
 }
 
 #icon-web-linkedin {
