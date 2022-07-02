@@ -161,6 +161,13 @@ address {
 	text-align: right;
 }
 
+#icon-code {
+	stroke: black;
+	@media (prefers-color-scheme: dark) {
+		stroke: white;
+	}
+}
+
 /*
 #icon-parcels {
 	stroke: black;
