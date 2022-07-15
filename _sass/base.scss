@@ -7,19 +7,12 @@
 
 a {
 	color: black;
-	@media (prefers-color-scheme: dark) {
-		color: white;
-	}
 }
 
 body {
 	display: grid;
 	grid-row-gap: 4vh;
 	width: 100vw;
-	@media (prefers-color-scheme: dark) {
-		background-color: black;
-		color: white;
-	}
 }
 
 @media (min-height: 650px) {
@@ -33,6 +26,44 @@ body {
 	body {
 		padding-left: 40px;
 		padding-right: 35px;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	a {
+		color: white;
+	}
+	address {
+		border-color: white;
+	}
+	body {
+		background-color: black;
+		color: white;
+	}
+	section {
+		border-color: white;
+	}
+	.icon {
+		fill: white;
+	}
+	#blog-title {
+		color: white;
+	}
+	#email-atsymbol {
+		color: white;
+	}
+	#icon-code {
+		stroke: white;
+	}
+	#icon-parcels-opening {
+		fill: black;
+	}
+	#icon-parcels-sides {
+		//fill: white;
+		stroke: black;
+	}
+	#icon-parcels-tape {
+		fill: black;
 	}
 }
 
@@ -63,9 +94,6 @@ section {
 	padding-bottom: 15px;
 	padding-top: 15px;
 	width: 290px;
-	@media (prefers-color-scheme: dark) {
-		border-color: white;
-	}
 	&:hover {
 		background-color: #51c7db;
 	}
@@ -90,9 +118,6 @@ section {
 
 .icon {
 	fill: black;
-	@media (prefers-color-scheme: dark) {
-		fill: white;
-	}
 }
 
 .icon-section {
@@ -114,9 +139,6 @@ address {
 	font-style: normal;
 	padding: 4px;
 	text-decoration: none;
-	@media (prefers-color-scheme: dark) {
-		border-color: white;
-	}
 }
 
 #blog {
@@ -138,9 +160,6 @@ address {
 	font-family: Cinzel;
 	font-size: 25px;
 	text-decoration: none;
-	@media (prefers-color-scheme: dark) {
-		color: white;
-	}
 }
 
 #email {
@@ -163,9 +182,6 @@ address {
 	color: black;
 	font-size: 18px;
 	text-align: center;
-	@media (prefers-color-scheme: dark) {
-		color: white;
-	}
 }
 
 #email-domain {
@@ -180,9 +196,6 @@ address {
 
 #icon-code {
 	stroke: black;
-	@media (prefers-color-scheme: dark) {
-		stroke: white;
-	}
 }
 
 /*
@@ -196,25 +209,15 @@ address {
 
 #icon-parcels-opening {
 	fill: white;
-	@media (prefers-color-scheme: dark) {
-		fill: black;
-	}
 }
 
 #icon-parcels-sides {
 	//fill: black;
 	stroke: white;
-	@media (prefers-color-scheme: dark) {
-		//fill: white;
-		stroke: black;
-	}
 }
 
 #icon-parcels-tape {
 	fill: white;
-	@media (prefers-color-scheme: dark) {
-		fill: black;
-	}
 }
 
 #name {
