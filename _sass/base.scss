@@ -15,58 +15,6 @@ body {
 	width: 100vw;
 }
 
-@media (min-height: 650px) {
-	body {
-		padding-bottom: 40px;
-		padding-top: 35px;
-	}
-}
-
-@media (min-width: 600px) {
-	body {
-		padding-left: 40px;
-		padding-right: 35px;
-	}
-}
-
-@media (prefers-color-scheme: dark) {
-	a {
-		color: white;
-	}
-	address {
-		border-color: white;
-	}
-	body {
-		background-color: black;
-		color: white;
-	}
-	section {
-		border-color: white;
-	}
-	.icon {
-		fill: white;
-	}
-	#blog-title {
-		color: white;
-	}
-	#email-atsymbol {
-		color: white;
-	}
-	#icon-code {
-		stroke: white;
-	}
-	#icon-parcels-opening {
-		fill: black;
-	}
-	#icon-parcels-sides {
-		//fill: white;
-		stroke: black;
-	}
-	#icon-parcels-tape {
-		fill: black;
-	}
-}
-
 header {
 	display: grid;
 	grid-row-gap: 3vh;
@@ -248,4 +196,56 @@ address {
 
 #name-surname {
 	justify-content: left;
+}
+
+@media (min-height: 650px) {
+	body {
+		padding-bottom: 40px;
+		padding-top: 35px;
+	}
+}
+
+@media (min-width: 600px) {
+	body {
+		padding-left: 40px;
+		padding-right: 35px;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	a {
+		color: white;
+	}
+	address {
+		border-color: white;
+	}
+	body {
+		background-color: black;
+		color: white;
+	}
+	section {
+		border-color: white;
+	}
+	.icon {
+		fill: white;
+	}
+	#blog-title {
+		color: white;
+	}
+	#email-atsymbol {
+		color: white;
+	}
+	#icon-code {
+		stroke: white;
+	}
+	#icon-parcels-opening {
+		fill: black;
+	}
+	#icon-parcels-sides {
+		//fill: white;
+		stroke: black;
+	}
+	#icon-parcels-tape {
+		fill: black;
+	}
 }
