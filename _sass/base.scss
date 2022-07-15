@@ -5,6 +5,13 @@
 @import "fonts/cinzel/regular";
 
 
+a {
+	color: black;
+	@media (prefers-color-scheme: dark) {
+		color: white;
+	}
+}
+
 body {
 	display: grid;
 	grid-row-gap: 4vh;
