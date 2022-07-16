@@ -363,9 +363,6 @@ a {
 }
 
 @media screen {
-	main {
-		background-color: #d3d3d3;
-	}
 	.page {
 		background-color: white;
 		border-left-color: black;
@@ -392,6 +389,7 @@ a {
 	}
 	@media ( min-width: 420mm ) {
 		body {
+			background-color: #d3d3d3;
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
