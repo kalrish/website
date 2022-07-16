@@ -391,6 +391,12 @@ a {
 		}
 	}
 	@media ( min-width: 420mm ) {
+		body {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			min-height: 100vh;
+		}
 		main {
 			display: flex;
 			flex-direction: row;
