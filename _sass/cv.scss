@@ -1,0 +1,408 @@
+@charset "UTF-8";
+
+
+@import "reset";
+
+
+a {
+	text-decoration: none;
+}
+
+
+.icon-table {
+	th > svg {
+		width: 20px;
+		height: 20px;
+		vertical-align: middle;
+	}
+	td {
+		vertical-align: middle;
+		padding-top: 6px;
+		padding-bottom: 6px;
+		padding-left: 15px;
+		font-family: Georgia;
+		font-size: 11pt;
+		font-style: normal;
+		& > a {
+			color: black;
+			font-family: monospace;
+		}
+		& > address {
+			font-family: monospace;
+			font-style: normal;
+		}
+	}
+}
+
+.page {
+	// DIN A4
+	height: 297mm;
+	width: 210mm;
+}
+
+.resume {
+	& > thead {
+		& th {
+			border-bottom: 1px solid rgba(0,0,0,.5);
+			font-size: 10pt;
+			font-weight: normal;
+			padding-bottom: 3px;
+		}
+	}
+	& > tbody {
+		& > tr {
+			&.current {
+				//font-weight: bold;
+			}
+			&.at-smaato {
+				//background-color: turquoise;
+			}
+			& > th {
+				text-align: left;
+				width: 145px;
+				& > time {
+					font-family: monospace;
+					font-size: 10pt;
+					font-weight: normal;
+					&:first-child {
+						&:after {
+							content: "-";
+						}
+					}
+				}
+			}
+			& > td {
+				font-family: sans-serif;
+				font-size: 11pt;
+				padding-left: 10px;
+				&.title {
+					width: 210px;
+				}
+			}
+			& > * {
+				padding-bottom: 5px;
+			}
+		}
+	}
+}
+
+.skills {
+	align-items: end;
+	display: flex;
+	flex-wrap: wrap;
+	font-family: sans-serif;
+	font-size: 11pt;
+	gap: 10px;
+	justify-content: space-evenly;
+	list-style-type: none;
+	& > li {
+		padding-left: 7px;
+		padding-right: 7px;
+		text-align: center;
+		& figcaption {
+			font-size: 10pt;
+		}
+		& svg {
+			max-height: 35px;
+			max-width: 35px;
+		}
+	}
+}
+
+.skills-secondary {
+	font-size: 10pt;
+	margin-top: 25px;
+	& > li {
+		& figcaption {
+			font-size: 9pt;
+		}
+		& svg {
+			max-height: 30px;
+			max-width: 30px;
+		}
+	}
+}
+
+
+#languages {
+	list-style-type: none;
+	margin-left: 2mm;
+	margin-top: 5mm;
+	& > li {
+		font-family: 'Sorts Mill Goudy', serif;
+		font-size: 12pt;
+		font-weight: bold;
+		& + li {
+			padding-top: 15px;
+		}
+	}
+}
+
+#page1 {
+	display: grid;
+	grid-template-columns: [l] calc(100% / 3) [r] auto;
+}
+
+#page1-left {
+	height: 100%;
+	padding-top: 2cm;
+	padding-left: 1cm;
+	padding-right: 9mm;
+	grid-column: l;
+	background-color: #3fa81c;
+	background-color: #327aff;
+	
+	& > header {
+		& > svg {
+			padding-left: 7mm;
+			padding-right: 8mm;
+			width: 100%;
+			margin-bottom: 15mm;
+		}
+	}
+	
+	& > section {
+		& + section {
+			margin-top: 11mm;
+			padding-top: 11mm;
+			border-top: 1px solid black;
+		}
+		& > h2 {
+			font-family: 'Sorts Mill Goudy', serif;
+			text-transform: uppercase;
+			margin-bottom: 4mm;
+		}
+	}
+}
+
+#page1-right {
+	height: 100%;
+	padding-top: 10mm;
+	grid-column: r;
+	margin-left: 10mm;
+	margin-right: 10mm;
+
+	& > hr {
+		margin-top: 10mm;
+		//margin-left: 15mm;
+		//margin-right: 15mm;
+		margin-left: 10mm;
+		margin-right: 10mm;
+		margin-bottom: 6mm;
+	}
+
+	& > header {
+		& > h1 {
+			width: max-content;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 5mm;
+			display: flex;
+			flex-direction: column;
+			& > span {
+				display: flex;
+				font-family: 'PT Serif', serif;
+				font-weight: 575;
+				font-size: 24px;
+				justify-content: center;
+			}
+			& > span:nth-child(1) {
+			}
+
+			& > span:nth-child(2) {
+			}
+		}
+	}
+
+	& > section {
+		& + section {
+			margin-top: 0.6cm;
+		}
+
+		& > h2 {
+			margin-bottom: 3mm;
+			padding-top: 3mm;
+			display: flex;
+			flex-direction: row;
+			&.middy {
+				font-family: 'Sorts Mill Goudy', sans-serif;
+				font-size: 18px;
+				&:before {
+					background-color: #a49a9a;
+					content: '\a0';
+					flex-grow: 1;
+					height: 1px;
+					margin-right: 15px;
+					position: relative;
+					top: 0.65em;
+				}
+				&:after {
+					background-color: #a49a9a;
+					content: '\a0';
+					flex-grow: 1;
+					height: 1px;
+					margin-left: 15px;
+					position: relative;
+					top: 0.65em;
+				}
+			}
+			&.biggy {
+				font-family: 'Sorts Mill Goudy', serif;
+				font-size: 22px;
+				text-transform: uppercase;
+				&:after {
+					background-color: #a49a9a;
+					content: '\a0';
+					flex-grow: 1;
+					height: 1px;
+					margin-left: 10px;
+					position: relative;
+					top: 0.65em;
+				}
+			}
+		}
+	}
+}
+
+#page2 {
+	padding-bottom: 25mm;
+	padding-left: 13mm;
+	padding-right: 13mm;
+	padding-top: 15mm;
+}
+
+#portfolio {
+	& > h2 {
+		display: flex;
+		flex-direction: row;
+		font-family: 'Sorts Mill Goudy', serif;
+		font-size: 22px;
+		justify-content: space-evenly;
+		margin-bottom: 10mm;
+		text-align: center;
+		text-transform: uppercase;
+		&:before {
+			content: "~";
+		}
+		&:after {
+			content: "~";
+		}
+	}
+	& > ol {
+		column-count: 2;
+		column-gap: 13mm;
+		list-style-type: none;
+		& > li {
+			border-color: black;
+			border-style: solid;
+			border-width: 2px;
+			break-inside: avoid-column;
+			margin-bottom: 30px;
+			padding-bottom: 3mm;
+			padding-left: 3mm;
+			padding-right: 3mm;
+			padding-top: 3mm;
+			& > h3 {
+				align-items: baseline;
+				display: flex;
+				justify-content: space-between;
+				vertical-align: middle;
+				& > a {
+					display: contents;
+					font-family: monospace;
+					font-size: 9pt;
+					& > .project_name {
+						font-family: monospace;
+						font-size: 14pt;
+					}
+				}
+			}
+			& > p {
+				font-family: Georgia;
+				font-size: 11pt;
+				line-height: 17pt;
+				margin-top: 15px;
+				text-align: justify;
+			}
+		}
+	}
+}
+
+#strengths {
+	font-family: Georgia;
+	font-size: 18px;
+	list-style-type: none;
+	text-align: center;
+	& > li {
+		display: inline;
+		& + li:before {
+			content: "\2022";
+		}
+	}
+}
+
+
+@media print {
+	@page {
+		margin: 0;
+	}
+	.skills {
+		& a {
+			color: black;
+			&:visited {
+				// seems unnecessary
+				//color: none;
+			}
+		}
+	}
+	.page {
+		& + .page {
+			page-break-before: always;
+		}
+	}
+	@media ( color: 0 ) {
+		#page1-left {
+			background-color: transparent;
+			border-right-color: black;
+			border-right-style: solid;
+			border-right-width: 1px;
+		}
+	}
+}
+
+@media screen {
+	main {
+		background-color: #d3d3d3;
+	}
+	.page {
+		background-color: white;
+		border-left-color: black;
+		border-left-style: solid;
+		border-left-width: 2px;
+		border-right-color: black;
+		border-right-style: solid;
+		border-right-width: 2px;
+	}
+	@media ( max-width: 420mm ) {
+		main {
+			display: block;
+		}
+		.page {
+			border-bottom-color: black;
+			border-bottom-style: solid;
+			border-bottom-width: 2px;
+			border-top-color: black;
+			border-top-style: solid;
+			border-top-width: 2px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	@media ( min-width: 420mm ) {
+		main {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+	}
+}
