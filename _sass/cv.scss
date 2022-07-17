@@ -95,13 +95,6 @@ a {
 	gap: 10px;
 	justify-content: space-evenly;
 	list-style-type: none;
-	& a {
-		color: black;
-		&:visited {
-			// seems unnecessary
-			//color: none;
-		}
-	}
 	& > li {
 		padding-left: 7px;
 		padding-right: 7px;
