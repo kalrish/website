@@ -185,24 +185,13 @@ a {
 	& > header {
 		margin-bottom: 5mm;
 		& > h1 {
+			font-family: 'PT Serif', serif;
+			font-weight: 575;
+			font-size: 24px;
 			width: max-content;
 			margin-left: auto;
 			margin-right: auto;
 			margin-bottom: 5mm;
-			display: flex;
-			flex-direction: column;
-			& > span {
-				display: flex;
-				font-family: 'PT Serif', serif;
-				font-weight: 575;
-				font-size: 24px;
-				justify-content: center;
-			}
-			& > span:nth-child(1) {
-			}
-
-			& > span:nth-child(2) {
-			}
 		}
 	}
 
