@@ -21,9 +21,9 @@ links:
 words:
    forenames:
       DACH: Vornamen
-      hispanic: Nombres
-      world: Forenames
+      hispanic: nombres
+      world: forenames
    surnames:
       DACH: Nachnamen
-      hispanic: Apellidos
-      world: Surnames
+      hispanic: apellidos
+      world: surnames
