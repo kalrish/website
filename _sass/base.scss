@@ -71,7 +71,7 @@ section {
 }
 
 .email-part {
-	width: 30%;
+	flex-basis: 50%;
 }
 
 .icon {
@@ -111,25 +111,22 @@ section {
 }
 
 #email {
-	display: inline-block;
+	align-items: center;
+	column-gap: 5px;
+	display: flex;
+	flex-direction: row;
 	font-family: monospace;
 	font-size: 14px;
 	font-style: normal;
 	font-weight: bold;
-	text-align: center;
+	justify-content: center;
 	text-decoration: none;
 	width: 100%;
-	& > span {
-		display: inline-block;
-		margin-left: 0px;
-		margin-right: 0px;
-	}
 }
 
 #email-atsymbol {
 	color: black;
 	font-size: 18px;
-	text-align: center;
 }
 
 #email-domain {
