@@ -13,11 +13,6 @@ links:
       DACH: /de/home
       hispanic: /es/home
       world: /
-   komoot:
-      tld:
-         DACH: de
-         hispanic: es
-         world: com
 words:
    forenames:
       DACH: Vornamen
