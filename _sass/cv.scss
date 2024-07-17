@@ -10,7 +10,7 @@ a {
 
 
 .certification-badge {
-	max-width: 40%;
+	max-width: 100%;
 }
 
 .icon-table {
@@ -127,9 +127,28 @@ a {
 	}
 }
 
+.topics-row {
+	align-items: end;
+	display: flex;
+	flex-wrap: wrap;
+	font-family: sans-serif;
+	font-size: 11pt;
+	column-gap: 25px;
+	justify-content: center;
+	list-style-type: none;
+}
+
 
 #certifications {
+	column-gap: 4px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: start;
 	list-style-type: none;
+	& > li {
+		flex-basis: 40%;
+	}
 }
 
 #languages {
