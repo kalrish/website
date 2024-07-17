@@ -331,6 +331,12 @@ a {
 	}
 }
 
+#topics {
+	& > ol + ol {
+		margin-top: 10px;
+	}
+}
+
 
 @media print {
 	@page {
