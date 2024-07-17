@@ -9,6 +9,10 @@ a {
 }
 
 
+.certification-badge {
+	max-width: 40%;
+}
+
 .icon-table {
 	th > svg {
 		width: 20px;
@@ -123,6 +127,10 @@ a {
 	}
 }
 
+
+#certifications {
+	list-style-type: none;
+}
 
 #languages {
 	list-style-type: none;
