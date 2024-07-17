@@ -167,14 +167,14 @@ a {
 
 #page1 {
 	display: grid;
-	grid-template-columns: [l] calc(100% / 3) [r] auto;
+	grid-template-columns: [l] 32% [r] auto;
 }
 
 #page1-left {
 	height: 100%;
 	padding-top: 2cm;
-	padding-left: 1cm;
-	padding-right: 9mm;
+	padding-left: 8mm;
+	padding-right: 8mm;
 	grid-column: l;
 	background-color: #3fa81c;
 	background-color: #327aff;
