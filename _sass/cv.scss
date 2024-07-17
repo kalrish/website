@@ -70,7 +70,9 @@ a {
 					font-weight: normal;
 					&:first-child {
 						&:after {
-							content: "-";
+							content: "—";
+							margin-left: 3px;
+							margin-right: 3px;
 						}
 					}
 				}
