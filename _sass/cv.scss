@@ -119,36 +119,9 @@ a {
 	align-items: end;
 	display: flex;
 	flex-wrap: wrap;
-	font-family: sans-serif;
-	font-size: 11pt;
-	gap: 10px;
-	justify-content: space-evenly;
 	list-style-type: none;
 	& > li {
-		padding-left: 7px;
-		padding-right: 7px;
 		text-align: center;
-		& figcaption {
-			font-size: 10pt;
-		}
-		& svg {
-			max-height: 35px;
-			width: 35px;
-		}
-	}
-}
-
-.skills-secondary {
-	font-size: 10pt;
-	margin-top: 25px;
-	& > li {
-		& figcaption {
-			font-size: 9pt;
-		}
-		& svg {
-			max-height: 30px;
-			width: 30px;
-		}
 	}
 }
 
@@ -328,6 +301,18 @@ a {
 			top: 0.65em;
 		}
 	}
+
+	& .skills {
+		column-gap: 40px;
+		font-family: sans-serif;
+		font-size: 11pt;
+		justify-content: center;
+	}
+
+	& .skills-secondary {
+		font-size: 10pt;
+		margin-top: 15px;
+	}
 }
 
 #portfolio {
@@ -367,6 +352,30 @@ a {
 				margin-top: 15px;
 				text-align: justify;
 			}
+		}
+	}
+}
+
+#programminglanguages {
+	& .skills {
+		column-gap: 17px;
+		justify-content: space-evenly;
+		& figcaption {
+			font-size: 10pt;
+		}
+		& svg {
+			max-height: 35px;
+			width: 35px;
+		}
+	}
+
+	& .skills-secondary {
+		& figcaption {
+			font-size: 9pt;
+		}
+		& svg {
+			max-height: 30px;
+			width: 30px;
 		}
 	}
 }
