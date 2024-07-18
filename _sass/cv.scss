@@ -85,8 +85,8 @@ a {
 					width: 210px;
 				}
 			}
-			& > * {
-				padding-bottom: 5px;
+			& + tr > * {
+				padding-top: 5px;
 			}
 		}
 	}
