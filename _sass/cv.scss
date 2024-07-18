@@ -13,6 +13,29 @@ a {
 	max-width: 100%;
 }
 
+.follow-up-page {
+	padding-bottom: 25mm;
+	padding-left: 13mm;
+	padding-right: 13mm;
+	padding-top: 15mm;
+	& > h2 {
+		display: flex;
+		flex-direction: row;
+		font-family: 'Sorts Mill Goudy', serif;
+		font-size: 22px;
+		justify-content: space-evenly;
+		margin-bottom: 10mm;
+		text-align: center;
+		text-transform: uppercase;
+		&:before {
+			content: "~";
+		}
+		&:after {
+			content: "~";
+		}
+	}
+}
+
 .icon-table {
 	th > svg {
 		width: 20px;
@@ -275,30 +298,7 @@ a {
 	}
 }
 
-#page3 {
-	padding-bottom: 25mm;
-	padding-left: 13mm;
-	padding-right: 13mm;
-	padding-top: 15mm;
-}
-
 #portfolio {
-	& > h2 {
-		display: flex;
-		flex-direction: row;
-		font-family: 'Sorts Mill Goudy', serif;
-		font-size: 22px;
-		justify-content: space-evenly;
-		margin-bottom: 10mm;
-		text-align: center;
-		text-transform: uppercase;
-		&:before {
-			content: "~";
-		}
-		&:after {
-			content: "~";
-		}
-	}
 	& > ol {
 		column-count: 2;
 		column-gap: 13mm;
