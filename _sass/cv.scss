@@ -119,6 +119,7 @@ a {
 	align-items: end;
 	display: flex;
 	flex-wrap: wrap;
+	font-family: sans-serif;
 	list-style-type: none;
 	& > li {
 		text-align: center;
@@ -273,7 +274,7 @@ a {
 
 #page2 {
 	& > section + section {
-		margin-top: 50px;
+		margin-top: 25px;
 	}
 	& > section > h3 {
 		display: flex;
@@ -304,7 +305,6 @@ a {
 
 	& .skills {
 		column-gap: 40px;
-		font-family: sans-serif;
 		font-size: 11pt;
 		justify-content: center;
 	}
@@ -370,6 +370,7 @@ a {
 	}
 
 	& .skills-secondary {
+		margin-top: 25px;
 		& figcaption {
 			font-size: 9pt;
 		}
