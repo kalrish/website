@@ -298,6 +298,34 @@ a {
 	}
 }
 
+#page2 {
+	& > section + section {
+		margin-top: 50px;
+	}
+	& > section > h3 {
+		font-family: 'Sorts Mill Goudy', sans-serif;
+		font-size: 18px;
+		&:before {
+			background-color: #a49a9a;
+			content: '\a0';
+			flex-grow: 1;
+			height: 1px;
+			margin-right: 15px;
+			position: relative;
+			top: 0.65em;
+		}
+		&:after {
+			background-color: #a49a9a;
+			content: '\a0';
+			flex-grow: 1;
+			height: 1px;
+			margin-left: 15px;
+			position: relative;
+			top: 0.65em;
+		}
+	}
+}
+
 #portfolio {
 	& > ol {
 		column-count: 2;
