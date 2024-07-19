@@ -405,6 +405,9 @@ a {
 	@page {
 		margin: 0;
 	}
+	a {
+		color: black;
+	}
 	.page {
 		& + .page {
 			page-break-before: always;
