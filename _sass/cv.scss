@@ -67,6 +67,20 @@ a {
 	width: 210mm;
 }
 
+.panel-list {
+	list-style-type: none;
+	margin-left: 2mm;
+	margin-top: 5mm;
+	& > li {
+		font-family: 'Sorts Mill Goudy', serif;
+		font-size: 12pt;
+		font-weight: bold;
+		& + li {
+			padding-top: 15px;
+		}
+	}
+}
+
 .resume {
 	& > thead {
 		& th {
@@ -147,20 +161,6 @@ a {
 	list-style-type: none;
 	& > li {
 		flex-basis: 40%;
-	}
-}
-
-#languages {
-	list-style-type: none;
-	margin-left: 2mm;
-	margin-top: 5mm;
-	& > li {
-		font-family: 'Sorts Mill Goudy', serif;
-		font-size: 12pt;
-		font-weight: bold;
-		& + li {
-			padding-top: 15px;
-		}
 	}
 }
 
