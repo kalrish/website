@@ -3,5 +3,8 @@
 exclude:
    - CNAME
 
+include:
+  - .well-known
+
 sass:
    style: compressed
