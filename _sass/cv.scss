@@ -158,12 +158,14 @@ a {
 			grid-row-start: 1;
 		}
 		& > .employer {
+			font-style: italic;
 			grid-column-end: 1;
 			grid-column-start: 1;
 			grid-row-end: 2;
 			grid-row-start: 2;
 		}
 		& > .job-location {
+			font-style: italic;
 			grid-column-end: 2;
 			grid-column-start: 2;
 			grid-row-end: 2;
@@ -174,16 +176,17 @@ a {
 		font-size: 11pt;
 		& > li {
 			list-style-position: inside;
-			list-style-type: disc;
+			list-style-type: circle;
 		}
 	}
 	& > .tools {
+		column-gap: 4px;
 		display: flex;
 		flex-wrap: wrap;
-		font-size: 10pt;
+		font-size: 9pt;
 		& > li {
 			list-style-position: inside;
-			list-style-type: disc;
+			list-style-type: square;
 		}
 	}
 }
