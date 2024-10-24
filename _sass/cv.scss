@@ -150,13 +150,6 @@ a {
 			grid-column-start: 2;
 			grid-row-end: 1;
 			grid-row-start: 1;
-			&:first-child {
-				&:after {
-					content: "—";
-					margin-left: 3px;
-					margin-right: 3px;
-				}
-			}
 		}
 		& > .employer {
 			grid-column-end: 1;
@@ -173,9 +166,14 @@ a {
 	}
 	& > .work {
 		font-size: 11pt;
+		& > li {
+			list-style-position: inside;
+			list-style-type: disc;
+		}
 	}
 	& > .tools {
 		display: flex;
+		flex-wrap: wrap;
 		font-size: 11pt;
 		& > li {
 			list-style-position: inside;
