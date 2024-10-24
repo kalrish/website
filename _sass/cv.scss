@@ -129,6 +129,12 @@ a {
 }
 
 .extended-resume-entry {
+	& + .extended-resume-entry
+		border-top-style: solid;
+		border-top-width: 1px;
+		margin-top: 15px;
+		padding-top: 15px;
+	}
 	& > hgroup {
 		display: grid;
 		grid-template-columns: 70% 30%;
@@ -321,49 +327,6 @@ a {
 				}
 			}
 		}
-	}
-}
-
-#page2 {
-	& > section + section {
-		margin-top: 25px;
-	}
-	& > section > h3 {
-		display: flex;
-		flex-direction: row;
-		font-family: 'Sorts Mill Goudy', sans-serif;
-		font-size: 18px;
-		margin-bottom: 4mm;
-		padding-top: 3mm;
-		&:before {
-			background-color: #a49a9a;
-			content: '\a0';
-			flex-grow: 1;
-			height: 1px;
-			margin-right: 15px;
-			position: relative;
-			top: 0.65em;
-		}
-		&:after {
-			background-color: #a49a9a;
-			content: '\a0';
-			flex-grow: 1;
-			height: 1px;
-			margin-left: 15px;
-			position: relative;
-			top: 0.65em;
-		}
-	}
-
-	& .skills {
-		column-gap: 40px;
-		font-size: 11pt;
-		justify-content: center;
-	}
-
-	& .skills-secondary {
-		font-size: 10pt;
-		margin-top: 15px;
 	}
 }
 
