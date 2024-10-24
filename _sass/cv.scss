@@ -129,7 +129,7 @@ a {
 }
 
 .extended-resume-entry {
-	& + .extended-resume-entry
+	& + .extended-resume-entry {
 		border-top-style: solid;
 		border-top-width: 1px;
 		margin-top: 15px;
