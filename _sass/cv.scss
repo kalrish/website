@@ -128,6 +128,48 @@ a {
 	}
 }
 
+.extended-resume-entry {
+	& > hgroup {
+		display: grid;
+		grid-template-columns: 70% 30%;
+
+		& > .job-title {
+			grid-column-end: 1;
+			grid-column-start: 1;
+			grid-row-end: 1;
+			grid-row-start: 1;
+		}
+		& > .position-timespan {
+			font-family: monospace;
+			font-size: 10pt;
+			font-weight: normal;
+			grid-column-end: 2;
+			grid-column-start: 2;
+			grid-row-end: 1;
+			grid-row-start: 1;
+			&:first-child {
+				&:after {
+					content: "—";
+					margin-left: 3px;
+					margin-right: 3px;
+				}
+			}
+		}
+		& > .employer {
+			grid-column-end: 1;
+			grid-column-start: 1;
+			grid-row-end: 2;
+			grid-row-start: 2;
+		}
+		& > .job-location {
+			grid-column-end: 2;
+			grid-column-start: 2;
+			grid-row-end: 2;
+			grid-row-start: 2;
+		}
+	}
+}
+
 .skills {
 	align-items: end;
 	display: flex;
