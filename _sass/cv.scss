@@ -104,13 +104,6 @@ a {
 					font-family: monospace;
 					font-size: 10pt;
 					font-weight: normal;
-					&:first-child {
-						&:after {
-							content: "—";
-							margin-left: 3px;
-							margin-right: 3px;
-						}
-					}
 				}
 			}
 			& > td {
