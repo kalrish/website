@@ -131,9 +131,11 @@ a {
 .extended-resume-entry {
 	& > hgroup {
 		display: grid;
+		font-size: 11pt;
 		grid-template-columns: 70% 30%;
 
 		& > .job-title {
+			font-weight: bold;
 			grid-column-end: 1;
 			grid-column-start: 1;
 			grid-row-end: 1;
@@ -142,7 +144,7 @@ a {
 		& > .position-timespan {
 			font-family: monospace;
 			font-size: 10pt;
-			font-weight: normal;
+			font-weight: bold;
 			grid-column-end: 2;
 			grid-column-start: 2;
 			grid-row-end: 1;
@@ -166,6 +168,13 @@ a {
 			grid-column-start: 2;
 			grid-row-end: 2;
 			grid-row-start: 2;
+		}
+	}
+	& > .tools {
+		display: flex;
+		& > li {
+			list-style-position: inside;
+			list-style-type: disc;
 		}
 	}
 }
